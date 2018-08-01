@@ -23,4 +23,6 @@ class WelcomeUsersTest extends TestCase
             ->assertStatus(200)
             ->assertSee('Bienvenido Erick');
     }
+
+
 }
