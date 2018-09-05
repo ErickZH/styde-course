@@ -8,21 +8,21 @@ class UserController extends Controller
 {
     public function index()
     {
-        return 'Usuarios';
+        return view('users.index');
     }
 
     public function show($id)
     {
-        return "Mostrando detalle del usuario: {$id}";
+        return view('users.show');
     }
 
     public function create()
     {
-        return 'Crear nuevo usuario';
+        return view('users.create');
     }
 
     public function edit($id)
     {
-        return "Editando detalle del usuario: {$id}";
+        return view('users.edit');
     }
 }
