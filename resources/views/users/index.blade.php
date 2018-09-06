@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Lista de ususarios</title>
-    </head>
-    <body>
-        <h1>Usuarios</h1>
-    </body>
-</html>
+@extends('layouts.app')
+
+@section('title', "Usuarios")
+
+@section('content')
+    <div class="row mt-3">
+        <div class="col-8">
+            <h1>Usuarios</h1>
+        </div>
+    </div>
+@endsection
